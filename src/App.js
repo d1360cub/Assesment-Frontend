@@ -1,9 +1,9 @@
-import ProductCard from './Components/ProductCard/ProductCard';
+import Routing from './components/Routing';
 
 function App() {
   return (
     <div>
-      <ProductCard />
+      <Routing />
     </div>
   );
 }
