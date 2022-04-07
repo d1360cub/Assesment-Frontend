@@ -1,0 +1,13 @@
+.card {
+  list-style: none;
+  text-align: center;
+}
+
+.image {
+  width: 230px;
+  height: auto;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
