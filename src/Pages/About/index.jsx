@@ -12,13 +12,15 @@ function About() {
       <p>
         Soy un ingeniero electrónico con más de 15 años de experiencia
         en diferentes industrias tales como telecomunicaciones, petróleos
-        y automatización.
+        y automatización (BMS - BAS).
         <br />
         <br />
         Decidí darle un giro a mi carrera en busca de mejores oportunidades
-        y ahora me estoy preparando en
-        <a href="https://makeitreal.camp/"> Make It Real</a>
-        para ser un Full Stack Developer.
+        y ahora me estoy preparando en &nbsp;
+        <a href="https://makeitreal.camp/" target="_blank" rel="noopener noreferrer">
+          <strong>Make It Real</strong>
+        </a>
+        &nbsp; para ser un Full Stack Developer.
       </p>
       <p>
         Hablando de aprendizaje, he fortalecido mis conocimientos en:
@@ -33,8 +35,10 @@ function About() {
         diegocubides@outlook.com
         <br />
         <br />
-        Y puedes revisar todos mis proyectos en
-        <a href="https://github.com/d1360cub"> mi repositorio de github</a>
+        Y puedes revisar todos mis proyectos en &nbsp;
+        <a href="https://github.com/d1360cub" target="_blank" rel="noopener noreferrer">
+          <strong>mi repositorio de github</strong>
+        </a>
       </p>
     </div>
   );

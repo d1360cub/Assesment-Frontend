@@ -1,0 +1,34 @@
+.details__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  color: aliceblue;
+}
+
+.details__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: aliceblue;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+		0 0 0.2em #87F
+}
+
+.details__image {
+  width: 350px;
+  max-height: auto;
+  border-radius: 10px;
+}
+
+.details__price {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.details_list {
+  list-style: none;
+}

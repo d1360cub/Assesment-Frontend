@@ -6,15 +6,17 @@ import './ProductCard.css';
 function ProductCard(props) {
   const { id, title, image } = props;
   return (
-    <li className="card">
-      <Link to={`/products/${id}`}>
-        <img
-          src={image}
-          alt={title}
-          className="image"
-        />
-        <div>{title}</div>
-      </Link>
+    <li className="card__container">
+      <img
+        src={image}
+        alt={title}
+        className="card__image"
+      />
+      <div className="card__title">{title}</div>
+      <div className="card__bottom">
+        <div className="card__timer">Timer</div>
+        <Link to={`/productdetails/${id}`} className="card__detail">Product detail</Link>
+      </div>
     </li>
   );
 }
