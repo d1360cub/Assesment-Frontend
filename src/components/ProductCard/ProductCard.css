@@ -41,3 +41,44 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 1rem;
 }
+
+.card__timer {
+  color: rgb(2, 2, 3);
+  background-color: aliceblue;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.product__expired {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.link__active {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.link__inactive {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
