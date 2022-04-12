@@ -1,7 +1,18 @@
 .grid{
   display: grid;
-  grid-template-columns: repeat(3, 250px);
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 40px;
   padding: 40px;
   justify-content: center;
+}
+
+.loading__text {
+  text-align: center;
+  color: brown;
+  font-size: 4rem;
+  padding-top: 10rem;
+  font-weight: bolder;
+  color: aliceblue;
+  text-shadow: 0 0 0.2em #c41f1f, 0 0 0.2em #c41f1f,
+  0 0 0.2em #c41f1f
 }
