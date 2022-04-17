@@ -1,0 +1,38 @@
+.c-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.c-section__title {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-top: 1rem solid rgb(193, 188, 188);
+}
+
+.c-services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style: none;
+  gap: 1rem;
+  padding: 0%;
+}
+
+.c-services__item {
+  background-color: whitesmoke;
+}
+
+.c-services__item:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.c-services__item h3{
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+
+.c-services__item p{
+  padding: 1rem;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import photo from '../../assets/cubismo2.JPG';
 
 function About() {
   return (
@@ -9,6 +10,7 @@ function About() {
         Estás visitando el proyecto de
         <strong> DIEGO FERNANDO CUBIDES TORRES</strong>
       </h2>
+      <img src={photo} alt="diegocubides" className="photo" />
       <p>
         Soy un ingeniero electrónico con más de 15 años de experiencia
         en diferentes industrias tales como telecomunicaciones, petróleos

@@ -9,3 +9,9 @@
 .container h2 {
   text-align: center;
 }
+
+.photo {
+  border: 1rem white solid;
+  height: 350px;
+  width: auto;
+}
